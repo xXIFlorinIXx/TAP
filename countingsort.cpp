@@ -26,12 +26,14 @@ void countin_sort(int v[], int n)
 }
 
 int v[101], n;
+
 int main()
 {
     cout << "n=";
     cin >> n;
     for (int i = 0; i < n; i++)
         cin >> v[i];
+
     countin_sort(v, n);
 
     for (int i = 0; i < n; i++)
